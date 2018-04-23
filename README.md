@@ -31,8 +31,10 @@ var serial_interface = new SerialInterface();
 After initializing, you can connect device with any serial terminal and start coding, the code can be seen in real-time.
 
 * Run JavaScript program in real-time
+
 To run the program, press Ctrl+R. This will execute the JS program and will display the output at serial terminal.
 
 * Flash JavaScript program to ROM
+
 You can also flash the program currently being written using [mbed-js-manager](https://github.com/syed-zeeshan/mbed-js-manager) library. To flash the code, use Ctrl+F key to flash the code to ROM memory of the device.
 
